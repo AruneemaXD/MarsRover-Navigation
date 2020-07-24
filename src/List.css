@@ -1,0 +1,17 @@
+.sub1, .sub2 { display: none; }
+
+:checked ~ .sub1, :checked ~ .sub2 {
+    display: block;
+    margin-left: 40px;
+
+}
+
+.Form {
+	
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: auto;
+    text-align: left;
+    color: white;
+}
+
